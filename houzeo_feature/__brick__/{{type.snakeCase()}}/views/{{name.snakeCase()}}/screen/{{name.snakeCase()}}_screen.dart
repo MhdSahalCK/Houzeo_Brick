@@ -7,7 +7,7 @@ class SellPropertyScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Placeholder(
       child: Center(
-        child: Text({{name}} + ' Screen'),
+        child: Text('${{name}}  Screen'),
       ),
     );
   }
