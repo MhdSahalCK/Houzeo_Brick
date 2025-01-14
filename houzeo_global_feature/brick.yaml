@@ -36,7 +36,7 @@ vars:
     type: enum
     description: File Type
     default: controller
-    prompt: File Type
+    prompt: What type of file do you want to generate?
     values: 
       - controller
       - widget

@@ -14,14 +14,12 @@ class {{name.pascalCase()}}Widget extends StatelessWidget {
 {{/if}}
 
 {{#if (eq file_type "controller")}}
-class {{name.pascalCase()}}controller {
-  
+class {{name.pascalCase()}}Controller {
 }
 {{/if}}
 
 {{#if (eq file_type "model")}}
 class {{name.pascalCase()}}Model {
-  
 }
 {{/if}}
 
