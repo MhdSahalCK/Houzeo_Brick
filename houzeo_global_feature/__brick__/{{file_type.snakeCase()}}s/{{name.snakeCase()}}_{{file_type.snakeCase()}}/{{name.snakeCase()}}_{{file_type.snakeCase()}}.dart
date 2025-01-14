@@ -1,4 +1,4 @@
-{{#if (eq type "widget")}}
+{{#if (eq file_type "widget")}}
 import 'package:flutter/material.dart';
 
 class {{name.pascalCase()}}Widget extends StatelessWidget {
@@ -13,19 +13,19 @@ class {{name.pascalCase()}}Widget extends StatelessWidget {
 }
 {{/if}}
 
-{{#if (eq type "controller")}}
+{{#if (eq file_type "controller")}}
 class {{name.pascalCase()}}controller {
   
 }
 {{/if}}
 
-{{#if (eq type "model")}}
+{{#if (eq file_type "model")}}
 class {{name.pascalCase()}}Model {
   
 }
 {{/if}}
 
-{{#if (eq type "repo")}}
+{{#if (eq file_type "repo")}}
 class {{name.pascalCase()}}Repository {
 }
 {{/if}}
