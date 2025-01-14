@@ -6,6 +6,8 @@ bricks:
   # Uncomment the following line to import the "hello" brick from BrickHub.
   houzeo_feature:
     path: houzeo_feature
+  houzeo_global_feature:
+    path: houzeo_global_feature  
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
   # widget:
