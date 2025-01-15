@@ -2,3 +2,4 @@ analyzer:
   exclude:
     - houzeo_feature/**
     - houzeo_global_feature/**
+    - houzeo_current_structure/**
