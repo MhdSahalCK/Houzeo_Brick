@@ -8,8 +8,8 @@ bricks:
     path: houzeo_feature
   houzeo_global_feature:
     path: houzeo_global_feature  
-  houzeo_current_structure:
-    path: houzeo_current_structure   
+  # houzeo_current_structure:
+  #   path: houzeo_current_structure   
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
   # widget:
